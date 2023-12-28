@@ -6,6 +6,4 @@ Abrir a pasta no terminal e instale o json-server -> npm install -g json-server
 
 Dentro da pasta json-server executar o seguinte comando -> json-server --watch db.json
 
-## Development server
-
 ng serve = para gerar o localhost.
