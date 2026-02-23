@@ -14,14 +14,6 @@ export class LoginComponent {
     email: ['', Validators.required],
     password: ['', Validators.required],
   });
-  /*email = this.addressForm.controls['email'];
-
-  getErrorMessage() {
-    if (this.email.hasError('required')) {
-      return 'You must enter a value';
-    }
-    return this.email.hasError('email') ? 'Not a valid email' : '';
-  }*/
 
   constructor(
     private fb: FormBuilder,
