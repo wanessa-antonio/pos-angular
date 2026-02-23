@@ -24,7 +24,7 @@ export class UserInfoComponent implements OnInit {
         next: (response) => {
           console.log('entrou no response')
           console.log(response)
-          //this.users = response;
+          
           if(response){
             this.user = response;
             if(this.user.users){
@@ -32,10 +32,7 @@ export class UserInfoComponent implements OnInit {
             } 
           }
           
-          /*
-          if(user != null)
-          this.email = user.users[0].email*/
-        },
+            },
         error: (erro: any) => {
           console.log('entrou no erro')
           alert("Usuário ou Senha inválido(s)!");
